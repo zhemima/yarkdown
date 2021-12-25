@@ -9,102 +9,102 @@
   Current colors taken from GitHub's CSS
 */.hljs{color:#24292e;background:#fff}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#d73a49}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#6f42c1}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#005cc5}.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#032f62}.hljs-built_in,.hljs-symbol{color:#e36209}.hljs-code,.hljs-comment,.hljs-formula{color:#6a737d}.hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag{color:#22863a}.hljs-subst{color:#24292e}.hljs-section{color:#005cc5;font-weight:700}.hljs-bullet{color:#735c0f}.hljs-emphasis{color:#24292e;font-style:italic}.hljs-strong{color:#24292e;font-weight:700}.hljs-addition{color:#22863a;background-color:#f0fff4}.hljs-deletion{color:#b31d28;background-color:#ffeef0}/* stylelint-disable font-family-no-missing-generic-family-keyword */@font-face {
     font-family: 'KaTeX_AMS';
-    src: url(./73ea273a72f4aca30ca5.woff2) format('woff2'), url(./d562e886c52f12660a41.woff) format('woff'), url(./853be92419a6c3766b9a.ttf) format('truetype');
+    src: url(../73ea273a72f4aca30ca5.woff2) format('woff2'), url(../d562e886c52f12660a41.woff) format('woff'), url(../853be92419a6c3766b9a.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Caligraphic';
-    src: url(./a1abf90dfd72792a577a.woff2) format('woff2'), url(./d757c535a2e5902f1325.woff) format('woff'), url(./7489a2fbfb9bfe704420.ttf) format('truetype');
+    src: url(../a1abf90dfd72792a577a.woff2) format('woff2'), url(../d757c535a2e5902f1325.woff) format('woff'), url(../7489a2fbfb9bfe704420.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Caligraphic';
-    src: url(./d6484fce1ef428d5bd94.woff2) format('woff2'), url(./db074fa22cf224af93d7.woff) format('woff'), url(./7e873d3833eb108a0758.ttf) format('truetype');
+    src: url(../d6484fce1ef428d5bd94.woff2) format('woff2'), url(../db074fa22cf224af93d7.woff) format('woff'), url(../7e873d3833eb108a0758.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Fraktur';
-    src: url(./931d67ea207ab37ee693.woff2) format('woff2'), url(./354501bac435c3264834.woff) format('woff'), url(./4c761b3711973ab04edf.ttf) format('truetype');
+    src: url(../931d67ea207ab37ee693.woff2) format('woff2'), url(../354501bac435c3264834.woff) format('woff'), url(../4c761b3711973ab04edf.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Fraktur';
-    src: url(./172d3529b26f8cedef6b.woff2) format('woff2'), url(./6fdf0ac577be0ba82a4c.woff) format('woff'), url(./ed305b5434865e06ffde.ttf) format('truetype');
+    src: url(../172d3529b26f8cedef6b.woff2) format('woff2'), url(../6fdf0ac577be0ba82a4c.woff) format('woff'), url(../ed305b5434865e06ffde.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Main';
-    src: url(./39890742bc957b368704.woff2) format('woff2'), url(./0c3b8929d377c0e9b2f3.woff) format('woff'), url(./8169508bf58f8bd92ad8.ttf) format('truetype');
+    src: url(../39890742bc957b368704.woff2) format('woff2'), url(../0c3b8929d377c0e9b2f3.woff) format('woff'), url(../8169508bf58f8bd92ad8.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Main';
-    src: url(./20f389c4120be058d80a.woff2) format('woff2'), url(./428978dc7837d46de091.woff) format('woff'), url(./828abcb200061cffbaae.ttf) format('truetype');
+    src: url(../20f389c4120be058d80a.woff2) format('woff2'), url(../428978dc7837d46de091.woff) format('woff'), url(../828abcb200061cffbaae.ttf) format('truetype');
     font-weight: bold;
     font-style: italic;
   }@font-face {
     font-family: 'KaTeX_Main';
-    src: url(./fe2176f79edaa716e621.woff2) format('woff2'), url(./fd947498bc16392e76c2.woff) format('woff'), url(./fa675e5e4bec9eb250b6.ttf) format('truetype');
+    src: url(../fe2176f79edaa716e621.woff2) format('woff2'), url(../fd947498bc16392e76c2.woff) format('woff'), url(../fa675e5e4bec9eb250b6.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
   }@font-face {
     font-family: 'KaTeX_Main';
-    src: url(./f650f111a3b890d116f1.woff2) format('woff2'), url(./4f35fbcc9ee8614c2bcc.woff) format('woff'), url(./9eba1d77abcf2aa6e94e.ttf) format('truetype');
+    src: url(../f650f111a3b890d116f1.woff2) format('woff2'), url(../4f35fbcc9ee8614c2bcc.woff) format('woff'), url(../9eba1d77abcf2aa6e94e.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Math';
-    src: url(./dcbcbd93bac0470b462d.woff2) format('woff2'), url(./3f07ed67f06c720120ce.woff) format('woff'), url(./bf2d440b3a42ea78a998.ttf) format('truetype');
+    src: url(../dcbcbd93bac0470b462d.woff2) format('woff2'), url(../3f07ed67f06c720120ce.woff) format('woff'), url(../bf2d440b3a42ea78a998.ttf) format('truetype');
     font-weight: bold;
     font-style: italic;
   }@font-face {
     font-family: 'KaTeX_Math';
-    src: url(./6d3d25f4820d0da8f01f.woff2) format('woff2'), url(./96759856b4e70f3a8338.woff) format('woff'), url(./8a5f936332e8028c7278.ttf) format('truetype');
+    src: url(../6d3d25f4820d0da8f01f.woff2) format('woff2'), url(../96759856b4e70f3a8338.woff) format('woff'), url(../8a5f936332e8028c7278.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
   }@font-face {
     font-family: 'KaTeX_SansSerif';
-    src: url(./95591a929f0d32aa282a.woff2) format('woff2'), url(./b9cd458ac6d5889ff9c3.woff) format('woff'), url(./5b49f4993ae22d7975b4.ttf) format('truetype');
+    src: url(../95591a929f0d32aa282a.woff2) format('woff2'), url(../b9cd458ac6d5889ff9c3.woff) format('woff'), url(../5b49f4993ae22d7975b4.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_SansSerif';
-    src: url(./7d393d382f3e7fb1c637.woff2) format('woff2'), url(./8d593cfaa96238d5e2f8.woff) format('woff'), url(./b257a18c016f37ee4543.ttf) format('truetype');
+    src: url(../7d393d382f3e7fb1c637.woff2) format('woff2'), url(../8d593cfaa96238d5e2f8.woff) format('woff'), url(../b257a18c016f37ee4543.ttf) format('truetype');
     font-weight: normal;
     font-style: italic;
   }@font-face {
     font-family: 'KaTeX_SansSerif';
-    src: url(./cd5e231e0cc53b2cb2c0.woff2) format('woff2'), url(./02271ec5cb9f5b4588ac.woff) format('woff'), url(./2f7bc363fc5424ebda59.ttf) format('truetype');
+    src: url(../cd5e231e0cc53b2cb2c0.woff2) format('woff2'), url(../02271ec5cb9f5b4588ac.woff) format('woff'), url(../2f7bc363fc5424ebda59.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Script';
-    src: url(./c81d1b2a4b75d3eded60.woff2) format('woff2'), url(./073b3402d036714b4370.woff) format('woff'), url(./fc9ba5249878cd8f8d88.ttf) format('truetype');
+    src: url(../c81d1b2a4b75d3eded60.woff2) format('woff2'), url(../073b3402d036714b4370.woff) format('woff'), url(../fc9ba5249878cd8f8d88.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Size1';
-    src: url(./6eec866c69313624be60.woff2) format('woff2'), url(./0108e89c9003e8c14ea3.woff) format('woff'), url(./6de7d4b539221a49e9e2.ttf) format('truetype');
+    src: url(../6eec866c69313624be60.woff2) format('woff2'), url(../0108e89c9003e8c14ea3.woff) format('woff'), url(../6de7d4b539221a49e9e2.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Size2';
-    src: url(./2960900c4f271311eb36.woff2) format('woff2'), url(./3a99e70aee4076660d38.woff) format('woff'), url(./57f5c1837853986ea1db.ttf) format('truetype');
+    src: url(../2960900c4f271311eb36.woff2) format('woff2'), url(../3a99e70aee4076660d38.woff) format('woff'), url(../57f5c1837853986ea1db.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Size3';
-    src: url(./e1951519f6f0596f7356.woff2) format('woff2'), url(./7947224e8a9914fa332b.woff) format('woff'), url(./8d6b6822586eea3d3b20.ttf) format('truetype');
+    src: url(../e1951519f6f0596f7356.woff2) format('woff2'), url(../7947224e8a9914fa332b.woff) format('woff'), url(../8d6b6822586eea3d3b20.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Size4';
-    src: url(./e418bf257af1052628d8.woff2) format('woff2'), url(./aeffd8025cba3647f1a6.woff) format('woff'), url(./4ad7c7e8bb8d10a34bb7.ttf) format('truetype');
+    src: url(../e418bf257af1052628d8.woff2) format('woff2'), url(../aeffd8025cba3647f1a6.woff) format('woff'), url(../4ad7c7e8bb8d10a34bb7.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }@font-face {
     font-family: 'KaTeX_Typewriter';
-    src: url(./c295e7f71970f03c0549.woff2) format('woff2'), url(./4c6b94fd1d07f8beff7c.woff) format('woff'), url(./c5c02d763c89380dcb4e.ttf) format('truetype');
+    src: url(../c295e7f71970f03c0549.woff2) format('woff2'), url(../4c6b94fd1d07f8beff7c.woff) format('woff'), url(../c5c02d763c89380dcb4e.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
   }.katex {
