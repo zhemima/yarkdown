@@ -876,11 +876,11 @@
   border-radius: var(--radius);
   transition: all 0.4s ease-in-out;
   padding:40px;
-}.markdown-body {
+}.editor {
 
   height: calc(100vh - 6.5rem);
-}@media only screen and (min-width: 72rem){.markdown-body {
+}@media only screen and (min-width: 72rem){.editor {
       height: calc(100vh - 8.5rem);
-}}.markdown-body{
+}}.editor{
 
   overflow: auto}
