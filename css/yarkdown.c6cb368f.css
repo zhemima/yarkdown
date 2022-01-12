@@ -856,7 +856,6 @@
   width: 100%;
   min-height: 100vh;
   transition: all 0.4s ease-in-out;
-  overflow: hidden;
 }a {
   cursor: pointer;
 }#app {
@@ -866,16 +865,37 @@
   margin: 0 auto;
 }.ProseMirror-menubar-wrapper {
   min-height: auto;
-  border-radius: var(--radius);
-  transition: all 0.4s ease-in-out;
-  padding:10px 40px;
+}.ProseMirror-menubar-wrapper .ProseMirror-menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  max-height: 36px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  /*overflow-x: auto;*/
+ 
+}.ProseMirror-menubar::-webkit-scrollbar {
+  height: 2px;
+}.ProseMirror-menubar::-webkit-scrollbar-corner {
+  background-color: var(--vscode-editor-background);
+}.ProseMirror-menubar::-webkit-scrollbar-thumb {
+  background-color: var(--vscode-scrollbarSlider-background);
+}.ProseMirror-menubar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--vscode-scrollbarSlider-hoverBackground);
+}.ProseMirror-menubar::-webkit-scrollbar-thumb:active {
+  background-color: var(--vscode-scrollbarSlider-activeBackground);
 }.editor {
-
-  height: calc(100vh - 6.5rem);
-}@media only screen and (min-width: 72rem){.editor {
-      height: calc(100vh - 8.5rem);
-}}.editor{
-
-  overflow: auto}
-
-
+ padding: 56px 35px;
+}.js-toc{
+  position:fixed;
+  top: 0px;
+  right: 0;
+  z-index: 3;
+  font-size: 1.2em;
+  line-height: 1.5;
+  background-color: var(--tiptap-color-background);
+}
+ 
