@@ -876,7 +876,6 @@
   display: flex;
   flex-wrap: nowrap;
   /*overflow-x: auto;*/
- 
 }.ProseMirror-menubar::-webkit-scrollbar {
   height: 2px;
 }.ProseMirror-menubar::-webkit-scrollbar-corner {
@@ -890,12 +889,8 @@
 }.editor {
  padding: 56px 35px;
 }.js-toc{
-  position:fixed;
-  top: 0px;
-  right: 0;
-  z-index: 3;
-  font-size: 1.2em;
   line-height: 1.5;
-  background-color: var(--tiptap-color-background);
+  padding:56px 0;
+}.toc>.toc-list{
+  height: 100%;
 }
- 
