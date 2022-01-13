@@ -891,6 +891,7 @@
 }.js-toc{
   line-height: 1.5;
   padding:56px 0;
-}.toc>.toc-list{
+  height:100%;
+}.js-toc>.toc-list{
   height: 100%;
 }
