@@ -863,8 +863,6 @@
   height: 100%;
   min-height: 100vh;
   margin: 0 auto;
-}.ProseMirror-menubar-wrapper {
-  min-height: auto;
 }.ProseMirror-menubar-wrapper .ProseMirror-menubar {
   position: fixed;
   top: 0;
@@ -875,7 +873,8 @@
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  /*overflow-x: auto;*/
+  overflow-x: scroll;
+  overflow-y: hidden;
 }.ProseMirror-menubar::-webkit-scrollbar {
   height: 2px;
 }.ProseMirror-menubar::-webkit-scrollbar-corner {
@@ -886,12 +885,16 @@
   background-color: var(--vscode-scrollbarSlider-hoverBackground);
 }.ProseMirror-menubar::-webkit-scrollbar-thumb:active {
   background-color: var(--vscode-scrollbarSlider-activeBackground);
+}/*由于.ProseMirror-menubar使用了固定高度,如果这个不固定的话会被盖住 */.ProseMirror-menubar-wrapper .ProseMirror-menu-dropdown-menu{
+  position:fixed;
+}.ProseMirror-menubar-wrapper .ProseMirror-menu-dropdown-menu, .ProseMirror-menubar-wrapper .ProseMirror-menu-submenu {
+  color: var(--tiptap-color-text);
 }.editor {
  padding: 56px 35px;
-}.js-toc{
+}.toc-wrapper{
   line-height: 1.5;
-  padding:56px 0;
+  padding:40px 0;
   height:100%;
-}.js-toc>.toc-list{
+}.js-toc, .js-toc>.toc-list{
   height: 100%;
 }
