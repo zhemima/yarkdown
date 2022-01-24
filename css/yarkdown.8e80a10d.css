@@ -897,4 +897,17 @@
   height:100%;
 }.js-toc, .js-toc>.toc-list{
   height: 100%;
-}
+}body{
+    font-size:13px;
+}#flex-container {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    min-height: 100vh;
+}#code-editor{
+    flex: 1 0 50vw;
+    border-right: 1px solid #ddd;
+    min-height: 100vh;
+}.ProseMirror-menubar-wrapper .ProseMirror-menubar {
+    left: 50.1vw;
+} 
