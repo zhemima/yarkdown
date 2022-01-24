@@ -910,4 +910,18 @@
     min-height: 100vh;
 }.ProseMirror-menubar-wrapper .ProseMirror-menubar {
     left: 50vw;
-} 
+}#overlay {
+    position: fixed;
+    top: 0px;
+    right: 48.5vw;
+    border-bottom-left-radius: 8px;
+    border: 1px solid #30363d;
+    height: 34px;
+}#overlay a {
+    padding: 10px;
+    line-height: 0;
+    display: inline-block;
+    color: #ddd;
+}#overlay a:hover {
+    color: #888;
+}
